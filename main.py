@@ -129,12 +129,19 @@ print(my_results)
 
 # dictionaries
 # another data structure that stores data that can be unstructured
-# employee = {'first_name': 'steven',
-#             'last_name': 'pretti',
-#              'weight': 37.2,
-#               'size': 5.77
-#              'height:' 6}
-# print(employee['weight'])
+employee = {'first_name': 'steven',
+             'last_name': 'pretti',
+              'weight': 37.2,
+             'size': 5.77,
+             'height ': 6}
+print(employee['weight'])
+warrior ={ " made by:": "hbo max",
+         "release date": 2018,
+         "budget": "24 mil",
+         "rotten tomato score":"fresh"}
+warrior["score"]= 22 #this is how to add something to dictionary
+print(warrior.items())
+print(warrior.keys()) 
 
 #challenge 1
 # Create a dictionary called my_dict that stores the following information about a person:
@@ -142,6 +149,13 @@ print(my_results)
 # surname: Jurgens
 # age: 35
 # occupation: Journalist
+
+my_dict= {"name":"karen",
+         "last_name":"Jurgens",
+         "age": 35,
+         "occupatiion":"Journalist"} 
+print(my_dict.items())
+
 # The names of the keys and values must be equal to the ones indicated above.
 
 #challenge 2:
