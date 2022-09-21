@@ -81,8 +81,8 @@ print(raffle)
 #################################################booleans######################################################
 # booleans
 # a boolean can only have 2 values -- true or False
-# my_bool = 5 > 4
-#print(my_bool)
+my_bool = 5 > 4
+print(my_bool)
 
 # > greater
 # < less
@@ -92,19 +92,24 @@ print(raffle)
 # != different or not equal to
 
 # you can also construct booleans to see if values ar in a variable or not found
-# my_ bool = 5 in my_list
-# my_bool = 5 not in my_list
-
+my_list = [1,2,3,4,5]
+my_bool = 5 in my_list
+my_bool = 5 not in my_list
+print(my_bool)
+my_num=54
+my_num2=2223
+my_result = my_num2<=my_num
+print(my_result)
 # so we can see if we can make logical decisions if something is true or not
-# var1 = True
-# var2 = False
-# print(type(var1))
-# print(var1)
+var1 = True
+var2 = False
+print(type(var1))
+print(var1)
 
-# list = [1,2,3,4,5,6]
-# control = 5 in list
-# print(type(control))
-# print(control)
+list = [1,2,3,4,5,6]
+control = 5 in list
+print(type(control))
+print(control)
 
 # Booleans Practice
 
